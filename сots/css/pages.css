@@ -1,0 +1,488 @@
+@font-face {
+  font-family: 'Frenchpress-freefont';
+  src: url("../fonts/frenchpress-freefont.eot?") format("eot");
+  src: url("../fonts/frenchpressfreefont.ttf") format("truetype"), url("../fonts/frenchpress_freefont-webfont.woff") format("woff"), url("../fonts/Frenchpress-freefont.otf") format("otf"); }
+
+@font-face {
+  font-family: 'UBUNTU-BOLD';
+  src: url(../fonts/UBUNTU-BOLD.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-BOLDITALIC';
+  src: url(../fonts/UBUNTU-BOLDITALIC.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-ITALIC';
+  src: url(../fonts/UBUNTU-ITALIC.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-LIGHT';
+  src: url(../fonts/UBUNTU-LIGHT.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-LIGHTITALIC';
+  src: url(../fonts/UBUNTU-LIGHTITALIC.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-MEDIUM';
+  src: url(../fonts/UBUNTU-MEDIUM.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-MEDIUMITALIC';
+  src: url(../fonts/UBUNTU-MEDIUMITALIC.TTF); }
+
+@font-face {
+  font-family: 'UBUNTU-REGULAR';
+  src: url(../fonts/UBUNTU-REGULAR.TTF); }
+
+@font-face {
+  font-family: 'UBUNTUCONDENSED-REGULAR';
+  src: url(../fonts/UBUNTUCONDENSED-REGULAR.TTF); }
+
+/* line 56, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.page-content-container {
+  background: url(../images/top-bg.png) no-repeat;
+  background-position: top;
+  color: #481d12; }
+  /* line 60, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-content-container .main-menu {
+    display: block;
+    padding-left: 25px;
+    padding-top: 27px; }
+    /* line 64, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .page-content-container .main-menu li {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      margin-right: 60px;
+      opacity: 0.5; }
+      /* line 70, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .page-content-container .main-menu li:hover {
+        opacity: 1; }
+      /* line 72, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .page-content-container .main-menu li:last-child {
+        margin-right: 0; }
+      /* line 74, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .page-content-container .main-menu li:before {
+        content: '?';
+        display: block;
+        width: 16px;
+        height: 16px;
+        background: #715047;
+        position: absolute;
+        text-align: center;
+        line-height: 16px;
+        color: #eeeae7;
+        border-radius: 50%;
+        left: -24px;
+        top: 3px; }
+      /* line 87, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .page-content-container .main-menu li a {
+        font-size: 17px;
+        color: #481d12;
+        border-bottom: 1px solid #bcb0ab; }
+
+/* line 93, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.page-about {
+  text-align: center;
+  width: 770px;
+  margin: 45px auto 0 auto; }
+  /* line 97, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-about .page-title {
+    font-family: 'Frenchpress-freefont';
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 39px; }
+  /* line 102, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-about p {
+    font-size: 17px;
+    font-family: 'UBUNTU-REGULAR';
+    line-height: 24px;
+    margin-top: 24px; }
+
+/* line 108, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.install-images {
+  text-align: center; }
+  /* line 110, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .install-images div {
+    width: 270px;
+    height: 178px;
+    display: inline-block;
+    text-align: center;
+    margin: 45px 30px 25px 0; }
+    /* line 116, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .install-images div:last-child {
+      margin-right: 0; }
+    /* line 118, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .install-images div img {
+      width: 270px;
+      height: 100%;
+      object-fit: cover; }
+
+/* line 125, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.payment-methods {
+  margin-top: 32px; }
+  /* line 127, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .payment-methods li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 21px;
+    height: 50px; }
+
+/* line 135, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.accent-block {
+  color: #481d12;
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  margin: 37px auto; }
+  /* line 143, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .accent-block ul {
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    font-size: 17px;
+    border: 1px solid #9fe2e8;
+    border-style: dotted;
+    border-radius: 5px;
+    height: 250px;
+    padding: 39px 0 39px 64px;
+    font-family: 'UBUNTU-REGULAR'; }
+    /* line 155, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .accent-block ul li {
+      display: inline-block;
+      margin-right: 0px;
+      opacity: 1;
+      font-size: 17px;
+      line-height: 24px;
+      margin-bottom: 15px; }
+      /* line 162, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .accent-block ul li:before {
+        content: '';
+        display: block;
+        position: absolute;
+        text-align: center;
+        left: -24px;
+        top: 5px; }
+
+/* line 172, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.page-important {
+  height: 258px;
+  width: 950px; }
+  /* line 175, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-important ul {
+    width: 940px;
+    height: 100%;
+    display: block;
+    padding-left: 63px;
+    padding-top: 39px; }
+    /* line 181, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .page-important ul li {
+      position: relative; }
+      /* line 183, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+      .page-important ul li:before {
+        content: '!';
+        display: block;
+        width: 16px;
+        height: 16px;
+        background: #f898c5;
+        position: absolute;
+        text-align: center;
+        line-height: 16px;
+        color: #eeeae7;
+        border-radius: 50%;
+        left: -25px;
+        top: 4px; }
+
+/* line 197, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.top-deco-title {
+  position: absolute;
+  display: block;
+  width: 71px;
+  text-align: center;
+  margin: auto;
+  padding: 27px 0;
+  top: -35px;
+  left: 0px;
+  right: -2px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50%;
+  background: #9fe2e8; }
+
+/* line 216, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.install-procedure {
+  float: none; }
+  /* line 218, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .install-procedure img {
+    float: left;
+    max-width: 450px; }
+  /* line 221, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .install-procedure .install-list {
+    width: 670px;
+    color: #f898c5;
+    float: left; }
+    /* line 225, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .install-procedure .install-list span {
+      color: #481d12;
+      font-size: 17px; }
+  /* line 228, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .install-procedure li {
+    list-style: decimal;
+    padding-bottom: 15px;
+    font-size: 17px;
+    line-height: 24px; }
+
+/* line 235, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+#install-procedure {
+  min-height: 387px; }
+
+/* line 241, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.ribbon-title-container {
+  background: #f898c5;
+  padding: 5px 0;
+  position: relative;
+  width: 635px;
+  margin: 0 auto 65px auto; }
+  /* line 247, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .ribbon-title-container:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -81px;
+    background: url(../images/ribbon-left.png) no-repeat left;
+    width: 80px;
+    height: 90px;
+    display: inline-block;
+    z-index: -5; }
+  /* line 257, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .ribbon-title-container:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: -75px;
+    background: url(../images/ribbon-right.png) no-repeat left;
+    width: 110px;
+    height: 90px;
+    display: inline-block;
+    z-index: -5; }
+
+/* line 268, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.ribbon-title {
+  font-size: 50px;
+  font-family: 'Frenchpress-freefont';
+  font-weight: normal;
+  background: #f898c5;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: dotted;
+  text-align: center;
+  height: 80px;
+  line-height: 80px; }
+
+/* line 285, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.suitable-cot .control, .delivery-conditions .control, .devices-work .control {
+  height: 650px;
+  vertical-align: middle;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+  margin-top: 65px; }
+  /* line 292, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .suitable-cot .control .control__box, .delivery-conditions .control .control__box, .devices-work .control .control__box {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 320px;
+    border-bottom: 0px; }
+    /* line 301, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .suitable-cot .control .control__box:before, .delivery-conditions .control .control__box:before, .devices-work .control .control__box:before {
+      content: '';
+      position: absolute;
+      top: -108px;
+      right: -114px;
+      background: url(../images/planes.png) no-repeat left;
+      width: 320px;
+      height: 220px;
+      display: inline-block;
+      z-index: -1; }
+    /* line 311, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .suitable-cot .control .control__box .control__punkt, .delivery-conditions .control .control__box .control__punkt, .devices-work .control .control__box .control__punkt {
+      border-bottom: 1px dotted #b8e4f7;
+      padding: 30px 35px 19px 35px; }
+
+/* line 316, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.suitable-cot .control {
+  background: url(../images/suitable-cot-bg.png) no-repeat top; }
+
+/* line 320, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.devices-work .view-block {
+  display: inline-block;
+  text-align: center;
+  width: 310px; }
+  /* line 324, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .devices-work .view-block .view-title {
+    font-family: 'UBUNTU-REGULAR';
+    font-size: 19px; }
+  /* line 327, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .devices-work .view-block .view-descript {
+    font-family: 'UBUNTU-ITALIC';
+    font-size: 16px; }
+
+/* line 330, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.devices-work .control {
+  background: url(../images/work-bg.png) no-repeat top;
+  padding: 95px; }
+  /* line 333, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .devices-work .control .control__box {
+    height: 302px;
+    top: 120px; }
+
+/* line 336, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.devices-work .control__title {
+  width: 410px; }
+
+/* line 340, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.delivery-conditions .page-about {
+  width: 100%; }
+
+/* line 342, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.delivery-conditions .control {
+  background: url(../images/delivery-bg.png) no-repeat top;
+  padding: 95px;
+  height: 540px; }
+  /* line 346, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .delivery-conditions .control .control__box {
+    height: 235px;
+    margin: 228px auto; }
+    /* line 349, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .delivery-conditions .control .control__box li {
+      line-height: 46px;
+      padding-bottom: 12px; }
+
+/* line 352, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.delivery-conditions .control__title {
+  width: 400px; }
+
+/* line 361, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.page-bottom {
+  padding: 40px;
+  color: #481d12;
+  background: url(../images/bottom-bg.png) repeat; }
+  /* line 365, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-bottom p {
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: 'UBUNTU-REGULAR'; }
+  /* line 370, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-bottom .small {
+    font-size: 14px; }
+  /* line 373, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .page-bottom .container .order-purpose {
+    margin: auto;
+    width: 430px;
+    text-align: center;
+    font-family: 'UBUNTU-MEDIUM';
+    font-size: 17px;
+    padding: 30px 0 1px 0; }
+
+/* line 382, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.page-bottom .installation {
+  width: 840px;
+  margin: auto; }
+
+/* line 389, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.suitable-cot .problems-container p {
+  text-align: center; }
+
+/* line 391, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.suitable-cot .problems-container .small {
+  text-align: left; }
+
+/* line 394, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.problems, .problems-images {
+  display: inline-block;
+  width: 570px; }
+
+/* line 399, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.problems-images div {
+  width: 270px;
+  height: 230px;
+  display: inline-block;
+  float: left;
+  margin: 45px 30px 25px 0; }
+  /* line 405, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .problems-images div:last-child {
+    margin-right: 0; }
+  /* line 407, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .problems-images div img {
+    width: 270px;
+    height: 100%;
+    object-fit: cover; }
+
+/* line 412, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.problems {
+  margin-right: 25px; }
+
+/* line 416, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.present-container {
+  width: 100%;
+  height: 140px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder; }
+  /* line 423, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .present-container .present {
+    border: 1px solid #f898c5;
+    border-style: dotted;
+    border-radius: 5px;
+    height: 100%;
+    padding-top: 45px;
+    position: relative; }
+    /* line 430, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .present-container .present:before {
+      content: '';
+      background: url(../images/present.png) no-repeat;
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      left: 50%;
+      margin-left: -35px;
+      top: -34px; }
+    /* line 439, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .present-container .present p {
+      vertical-align: middle;
+      padding-bottom: 0px; }
+    /* line 442, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+    .present-container .present .accent {
+      color: #43b1c4;
+      font-size: 36px; }
+
+/* line 446, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+.make-order-btn {
+  margin: 30px auto 0px auto;
+  display: block;
+  padding: 15px;
+  background: #f898c5;
+  color: #fff;
+  font-size: 18px;
+  width: 140px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer; }
+  /* line 457, D:/Work/Alina/Cots Babys/Cots/css/pages.sass */
+  .make-order-btn:hover {
+    background: #f574b0;
+    cursor: pointer; }
+
+/*# sourceMappingURL=pages.css.map */
